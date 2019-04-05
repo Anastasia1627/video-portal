@@ -1,0 +1,10 @@
+<div>
+  <app-header></app-header>
+  <app-breadcrumbs></app-breadcrumbs>
+  <app-search></app-search>
+  <app-videos *ngFor="let item of videoItems | slice:0:3; let i = index;" [video]="item"></app-videos>
+  <div class="load-button">
+    <button type="button">Load more</button>
+  </div>
+  <app-footer></app-footer>
+</div>

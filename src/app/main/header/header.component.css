@@ -1,0 +1,7 @@
+div{
+  display: grid;
+  grid-template: auto / repeat(3, auto);
+}
+img{
+  width: 25px;
+}
